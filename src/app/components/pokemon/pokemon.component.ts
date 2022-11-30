@@ -8,9 +8,15 @@ import { PokemonService } from 'src/app/services/pokemon.service';
 })
 export class PokemonComponent implements OnInit {
 
-  constructor(private pokemonService : PokemonService){}
+  name: string
+
+  constructor(private pokemonService : PokemonService){ }
   ngOnInit(): void {
-    
   }
+  
+  search(){
+    this.pokemonService.getPokemon(this.name)
+  }
+
 
 }
