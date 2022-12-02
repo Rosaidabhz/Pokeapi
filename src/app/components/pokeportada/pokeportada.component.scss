@@ -3,6 +3,7 @@
     display: flex;
     flex-direction: row;
     background-color: #F8F8F8;
+    height: 50rem;
     padding: 0;
 
 }
@@ -23,15 +24,86 @@
     letter-spacing: 0.38em;
     color: #000000;  
 }
-.Equipo6{
-    justify-content: center;
-    display: flex;
-    padding: 0;
-    position: absolute;
-    border: 0;
+
+.img-list{
+    width: 100px;
+    height: 100px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
-.grupo6{
-   width: 1255px;
-   height: 287px;
-   margin-top: 30rem;
+
+.card-1 {
+  position: absolute;
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+  left: 35px;
+  margin-top: 500px;
+  grid-template-columns: auto auto auto;
+
+  
+}
+.card-2 {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+    display: flex;
+    padding: 0px;
+    gap: 8px;
+    position: absolute;
+    left: 35px;
+    margin-top: 650px;
+}  
+
+.titlepokemon {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin-top: 86px;
+  align-items: flex-start;
+  position: absolute;
+  width: 425px;
+  height: 24px;
+  border-radius: 0px 0px 8px 8px;
+
+  background: #DEA8FF;
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.cuadro-1{
+  box-sizing: border-box;
+  display: flex;
+  padding: 0px;
+  width: 426px;
+  height: 112px;
+  background: #FFFFFF;
+  border: 1px solid #FA35CE;
+  border-radius: 8px;
+
+}
+.cuadro-2{
+
+    box-sizing: border-box;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 426px;
+    height: 112px;
+    
+    background: #FFFFFF;
+    border: 1px solid #FA35CE;
+    border-radius: 8px;
+    
 }
