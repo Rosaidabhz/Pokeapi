@@ -31,6 +31,7 @@
 
   /* INICIO MENU HAMBURGUESA */
 
+
   .nav-icon {
     margin: 0em;
     width: 40px;
@@ -38,6 +39,8 @@
     right: 3%;
     top: 25px;
     z-index: 1;
+
+  /* EFECTO DEL ICON */
 
     &:after, &:before, div {
       background-color: rgb(14, 12, 12);
@@ -100,8 +103,5 @@
     list-style: none;
   }
 
-
-
-  
 
   /* FIN MENU HAMBURGUESA */
