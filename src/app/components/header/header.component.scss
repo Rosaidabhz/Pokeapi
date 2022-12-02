@@ -1,9 +1,14 @@
 .menu {
     margin: 0;
+    flex-direction: column;
+    justify-content: center;
     background-repeat: no-repeat;
     background-color: #F8F8F8;
   }
 
+.container-logo{
+  cursor: pointer;
+}
   .logo {
     margin: 20px;
     margin-top: 30px;
@@ -23,21 +28,6 @@
     margin-left: 5rem;
   }
 
-  li {
-    padding: 10px;
-    letter-spacing: 2px;
-    font-family: 'Poppins';
-    background-color: #C8C8C8;
-  }
-
-  a {
-    font-family: 'Poppins';
-    font-style: normal;
-    color: #F8F8F8;
-    background-color: #C8C8C8;
-    text-decoration: none;
-
-  }
 
   /* INICIO MENU HAMBURGUESA */
 
@@ -56,7 +46,7 @@
       display: block;
       height: 5px;
       margin: 7px 0;
-      transition: all 0.6s ease-in-out;
+      transition: 0.6s ease-in-out;
     }
 
     &:hover {
@@ -77,19 +67,41 @@
   /* ANIMACION MENU HAMBURGUESA */
 
   .nav-items {
-    display: block;
     height: 0;
+    display: flex;
     overflow: hidden;
-    list-style: none;
-    text-align: center;
+    flex-direction: column;
+    justify-content: center;
     font-size: x-large;
     padding: 0px;
     margin: 0;
-    transition:6.10s ease-in-out;
+    transition:0.2s ease-in-out;
+    background-color: #C8C8C8;
+
   }
 
-  .nav-icon:hover ~ .nav-items {
+  .nav-items.activo{
     height: 100px;
+    transition: .5;
   }
+
+  .nav-items li{
+    padding: 10px;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+
+  .nav-items a{
+    font-family: 'Poppins';
+    font-family: 'Poppins';
+    font-style: normal;
+    color: #F8F8F8;
+    text-decoration: none;
+    list-style: none;
+  }
+
+
+
   
+
   /* FIN MENU HAMBURGUESA */
