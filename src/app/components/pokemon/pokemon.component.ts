@@ -6,20 +6,9 @@ import { PokemonService } from 'src/app/services/pokemon.service';
   templateUrl: './pokemon.component.html',
   styleUrls: ['./pokemon.component.scss']
 })
-export class PokemonComponent implements OnInit {
-
-  name: string
-  urlImage: string
-
-  constructor(private pokemonService : PokemonService){ }
-  ngOnInit(): void {
-  }
-  
-  search(){
-    this.pokemonService.getPokemon(this.name).subscribe((data:any) => {
-    this.urlImage = data.sprites.front_default
-    })
-  }
-
+export class PokemonComponent  {  
 
 }
+
+
+
