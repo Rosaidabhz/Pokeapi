@@ -15,79 +15,42 @@
   margin-right: auto;
   margin-top: 50px
 }
-.search{
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #fff;
-    border-radius: 2px;
-    justify-content: center;
-}
-.container-search{
-   display: flex;
-   justify-content: center;
+
+.pokedex{
+  display : flex;
+  flex-wrap : wrap;
+  align-items : space-between;
+  justify-content : center;
+  max-width : 1200px;
+  margin : 0 auto;
 }
 
-#input {
-  border: 0;
-  border-radius: 5px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  width: 50%;
-  height: 50px;
-  font-size: 16px;
-  align-self: center;
-  margin: 10px;
-  padding-left: 10px;
-  color: #000;
+.card{
+  background-color: brown;
+  border-radius : 20px;
+  display: flex;
+  flex-direction : column;
+  padding: 10px;
+  margin : 20px;
+  text-align :center;
+  box-shadow :0 3px 15px rgba(100,100,100,0.5);
 }
 
-:root {
-    font-size: min(max(7rem, calc(7rem + ((1vw - 8rem) * 1.25))), 2rem);
-    min-height: 0vw;
-  }
-
-h1 {
-    text-align: center;
-    font-family: "Luckiest Guy";
-    font-weight: 900;
-    color: yellow;
-    -webkit-text-stroke: 0.1rem blue;
+.card .poke-img{
+  background : white;
+  border: 1px solid black;
+  border-radius: 50%;
+  margin-top : 20px;
+  width :120px;
+  height : 120px;
 }
 
-.conteiner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 4rem;
-}
-.pkm-card {
-    height: 7.5rem;
-    width: 7rem;
-    padding: 1rem;
-    border-radius: 20px;
-    background-color: white;
-    text-align: center;
-    font-family: "Roboto";
-    text-transform: uppercase;
-    font-size: 1.2rem;
-    font-weight: 900;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.poke-img img{
+  margin-top : 20px;
+  max-width : 90%;
 }
 
-.pkm-card:hover {
-   transform: scale(1.1);
-   box-shadow: 1px 2px 15px 4px #000000;
-}
-
-.pkm-images {
-    height: 60%;
-    width: 60%;
-}
-
-.type {
-    font-size: 0.5rem;
+.poke-info
+{
+  margin-top : 10px
 }
