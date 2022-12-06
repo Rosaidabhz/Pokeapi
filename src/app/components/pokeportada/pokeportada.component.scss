@@ -85,7 +85,7 @@
   height: 24px;
   border-radius: 0px 0px 8px 8px;
   font-size: 15px;
-  background: #ff6e35;
+  background: #ffaf8f;
   font-family: 'Poppins';
 
   flex: none;
@@ -249,18 +249,108 @@ font-size: 12px;
 line-height: 30px;
 display: flex;
 letter-spacing: 0.78em;
-color: #880000;
+color: #140808;
 font-family: 'Poppins';
 margin-left: 5px;
 
 
 }
 .datostexto{
-  font-family: 'Poppins';
+font-family: 'Poppins';
 font-style: normal;
 font-weight: 400;
 font-size: 12px;
 line-height: 16px;
-color: #000000;
+color: #E72A00;
 
+
+}
+
+@media screen and (max-width: 600px) {
+  .container_portada{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 10px !important;
+    flex-direction: row;
+    background-color: #F8F8F8;
+    height: 60rem;
+  }
+  .imgpokebola {  
+    margin-top: 60px;
+    width: 100%;
+    margin-left: 0;
+}
+ 
+.titlebienvenidos{
+  margin-top: 30px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 0.35em;
+  color: #000000; 
+  margin-left: auto;
+}
+.card-1 {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  padding: 0px;
+  flex-direction: column;
+  margin-top: 10px;
+
+}
+.card-2 {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    padding: 0px;
+    flex-direction: column;
+    margin-top: 10px;
+}  
+}
+@media screen and (max-width: 423px) {
+  .container_portada{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 10px !important;
+    flex-direction: row;
+    background-color: #F8F8F8;
+    height: 100rem;
+  }
+  .imgpokebola {  
+    margin-top: 60px;
+    width: 100%;
+    margin-left: 0;
+}
+ 
+.titlebienvenidos{
+  margin-top: 30px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  letter-spacing: 0.35em;
+  color: #000000; 
+  margin-left: auto;
+}
+.card-1 {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  padding: 0px;
+  flex-direction: column;
+  margin-top: 10px;
+
+}
+.card-2 {
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    padding: 0px;
+    flex-direction: column;
+    margin-top: 10px;
+}  
 }
