@@ -252,7 +252,8 @@ letter-spacing: 0.78em;
 color: #140808;
 font-family: 'Poppins';
 margin-left: 5px;
-
+width: 40px;
+height: 30px;
 
 }
 .datostexto{
@@ -262,8 +263,16 @@ font-weight: 400;
 font-size: 12px;
 line-height: 16px;
 color: #000000;
+width: 50px;
+height: 30px;
+}
 
-
+.resultado{
+  display: flex;
+ margin-top: 30px;
+ color: red;
+ font-family: 'Poppins';
+ line-height: 16px;
 }
 
 @media screen and (max-width: 600px) {
