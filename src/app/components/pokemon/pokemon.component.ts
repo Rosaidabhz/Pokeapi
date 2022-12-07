@@ -70,9 +70,7 @@ ngOnInit(): void {
           displayPokemon(pokemon);
         })
     };
-    
-    //https://pokeres.bastionbot.org/images/pokemon/${poke.id}.png
-    
+        
     const displayPokemon = (pokemon: any[]) => {
     
       const pokedexHtml = pokemon.map( (poke: { color: any; secondColor: any; id: any; name: any; types: any; }) =>

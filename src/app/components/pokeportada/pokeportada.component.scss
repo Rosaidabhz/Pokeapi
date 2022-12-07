@@ -265,14 +265,63 @@ line-height: 16px;
 color: #000000;
 width: 50px;
 height: 30px;
+font-weight: 700;
+
 }
 
-.resultado{
+.resultado-1{
   display: flex;
  margin-top: 30px;
- color: red;
+ color: rgb(146, 49, 92);
  font-family: 'Poppins';
  line-height: 16px;
+ font-weight: 700;
+
+}
+.resultado-2{
+  display: flex;
+ margin-top: 30px;
+ color: rgb(146, 64, 49);
+ font-family: 'Poppins';
+ line-height: 16px;
+ font-weight: 700;
+
+}
+.resultado-3{
+  display: flex;
+ margin-top: 30px;
+ color: rgb(49, 59, 146);
+ font-family: 'Poppins';
+ line-height: 16px;
+ font-weight: 700;
+
+}
+.resultado-4{
+  display: flex;
+ margin-top: 30px;
+ color: rgb(96, 146, 49);
+ font-family: 'Poppins';
+ line-height: 16px;
+ font-weight: 700;
+
+}
+.resultado-5{
+  display: flex;
+ margin-top: 30px;
+ color: rgb(146, 123, 49);
+ font-family: 'Poppins';
+ line-height: 16px;
+ font-weight: 700;
+
+}
+.resultado-6{
+  display: flex;
+ margin-top: 30px;
+ color: rgb(123, 49, 146);
+ font-family: 'Poppins';
+ line-height: 16px;
+ font-weight: 700;
+
 }
 
 @media screen and (max-width: 600px) {
